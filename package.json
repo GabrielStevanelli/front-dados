@@ -1,0 +1,10 @@
+{
+  "name": "recados-front",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {},
+  "scripts": {},
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

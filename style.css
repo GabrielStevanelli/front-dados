@@ -1,0 +1,103 @@
+body {
+    background-color: #A8DADC;
+}
+
+img{
+    width: 350px;
+    min-height: 457px;
+}
+
+.box{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    box-shadow: 0px 5px 10px rgb(71, 71, 71);
+}
+
+.img{
+    padding:0;
+}
+
+.login-form{ 
+    min-width: 350px;
+    max-width: 350px;
+    max-height: 457px;
+    border-radius: 0 8px 8px 0;
+    background-color: #F1FAEE;
+}
+
+.btn-primary {
+    border-color: #457B9D;
+    background-color: #457B9D;
+    font-size: 14px;
+}
+
+.btn-primary:hover{
+    background-color: #2C4E63;
+
+}
+
+.fixed {
+    margin: 10px;
+    padding: 6px 10px;
+    position: fixed;
+    background-color: #FFFCF9;
+    border-radius: 5px;
+}
+
+.link-primary {
+    font-size: 16px;
+    color: #457B9D;
+    text-decoration: none; 
+}
+
+.link-primary:hover {
+    color: #2C4E63;
+}
+
+.boxMensagens {
+    margin: 10px;
+    padding: 25px;
+    background-color: #FFFCF9;
+    min-height: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgb(71, 71, 71);
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
